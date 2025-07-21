@@ -68,3 +68,15 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "phlex-rails", "~> 2.3"
+
+gem "tailwind_merge", "~> 1.3"
+
+gem "ruby_ui", "~> 1.0", group: :development, require: false
+
+# Authorization
+gem "action_policy"
+
+# AI Integration
+gem "ruby-openai"
